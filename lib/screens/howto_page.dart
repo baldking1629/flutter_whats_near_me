@@ -14,8 +14,7 @@ class HowTo extends StatelessWidget {
             const Center(
               child: CircleAvatar(
                 radius: 85,
-                backgroundImage: AssetImage(
-                    'assets/icons/location.png'), 
+                backgroundImage: AssetImage('assets/icons/location.png'),
               ),
             ),
             buildInstructionSection(
@@ -30,9 +29,8 @@ class HowTo extends StatelessWidget {
             const SizedBox(height: 20),
             buildInstructionSection(
                 icon: Icons.info,
-                title: 'Neden Kullanılır',
-                description:
-                    'Oluştuğunuz konumda etrafınızda yer alan yakın imkanları tek bir tıkla elinizin altında bulabilirsiniz.'),
+                title: 'Hazırlayanlar',
+                description: 'Mahmut KELEŞ \nAbdulkadir ÖKSÜZ'),
           ],
         ),
       ),

@@ -37,7 +37,6 @@ class _FavoritesPageState extends State<FavoritesPage> {
                       children: [
                         IconButton(
                           onPressed: () {
-                            
                           },
                           icon: const Icon(
                             Icons.favorite,
